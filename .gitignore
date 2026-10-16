@@ -1,0 +1,17 @@
+
+# ZIP backups - PHP source files are already in the project
+*.zip
+
+# Local database testing
+test_db.php
+
+# Local secrets and configuration
+.env
+.env.*
+
+# Temporary files
+*.log
+*.tmp
+
+# Local database connection
+includes/db.php
